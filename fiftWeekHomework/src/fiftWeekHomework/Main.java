@@ -19,10 +19,10 @@ public class Main {
 		Customer customer = new Customer("mehmet ","akif","mehmet.akif@nctdata.com","123456",true);
 		Customer user2 = new Customer("akif","inan","akif.inan@gmail.com","145263",false);
 		CustomerService.add(customer);
-		CustomerService.login(user);
-		CustomerService.confirm(user);
-		CustomerService.loginWithEmail(user);
-		CustomerService.registerWithEmail(user);
+		CustomerService.login(customer);
+		CustomerService.confirm(customer);
+		CustomerService.loginWithEmail(customer);
+		CustomerService.registerWithEmail(customer);
         
 		CustomerService.register(customer);
 			CustomerService.login(customer);
